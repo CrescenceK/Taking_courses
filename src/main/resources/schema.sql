@@ -1,0 +1,9 @@
+DROP TABLE IF EXISTS Users;
+
+CREATE TABLE Users (
+ username VARCHAR(250) PRIMARY KEY,
+ f_name VARCHAR(250) NOT NULL,
+ l_name VARCHAR(250) NOT NULL,
+ password VARCHAR(250) NOT NULL,
+ date_of_birth DATE NOT NULL
+);
